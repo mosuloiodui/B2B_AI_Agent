@@ -241,12 +241,8 @@ Traced functions include: `extract_request`, `get_search_comp` / `search_comp`, 
 - Designing **iterative, chunk-by-chunk reasoning** to process large volumes of data
 ---
  
-## 🙏 Acknowledgements
+## Acknowledgements
  
 Thanks to **3LM Solutions** and my supervisor **Saidi Souhir** for the opportunity, the choice of this subject and the time dedicated to this internship, and to **INPT** for the academic framework.
  
 ---
- 
-## 📄 License
- 
-_Add a license of your choice (e.g. MIT) — see [choosealicense.com](https://choosealicense.com/)._
