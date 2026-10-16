@@ -93,6 +93,7 @@ flowchart LR
 .
 ├── agent_ia_b2b_luxembourg.ipynb    # Full pipeline (Google Colab notebook)
 ├── Rapport_de_stage_Agent_IA_B2B_Luxembourg.pdf   # Internship report (French)
+├── requirements.txt
 └── README.md
 ```
  
@@ -114,7 +115,7 @@ You need API keys for:
  
 ### Run on Google Colab (recommended)
  
-1. Open the notebook in [Google Colab](https://colab.research.google.com/).
+1. Open [`agent_ia_b2b_luxembourg.ipynb`](agent_ia_b2b_luxembourg.ipynb) in [Google Colab](https://colab.research.google.com/).
 2. Open the **🔑 Secrets** tab and add the following secrets (enable notebook access for each):
    | Secret name | Service |
    |---|---|
@@ -125,7 +126,7 @@ You need API keys for:
    | `LANGSMITH` | LangSmith API key |
 3. Run the install cell, then all remaining cells.
 ```bash
-pip install -q langsmith openai ollama google-search-results beautifulsoup4 requests
+pip install -q -r requirements.txt
 ```
  
 > 🔐 **Security:** keys are loaded through `google.colab.userdata`. **No API key is stored in the code** — never commit your keys to the repository.

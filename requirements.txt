@@ -1,0 +1,6 @@
+langsmith
+openai
+ollama
+google-search-results
+beautifulsoup4
+requests
