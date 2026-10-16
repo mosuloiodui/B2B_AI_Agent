@@ -126,7 +126,7 @@ You need API keys for:
    | `LANGSMITH` | LangSmith API key |
 3. Run the install cell, then all remaining cells.
 ```bash
-pip install -q -r requirements.txt
+pip install -q langsmith openai ollama google-search-results beautifulsoup4 requests
 ```
  
 > 🔐 **Security:** keys are loaded through `google.colab.userdata`. **No API key is stored in the code** — never commit your keys to the repository.
